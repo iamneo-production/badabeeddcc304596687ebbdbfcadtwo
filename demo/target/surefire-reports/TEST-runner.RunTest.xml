@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="runner.RunTest" time="0.126" errors="6" skipped="7">
+<testsuite tests="13" failures="0" name="runner.RunTest" time="0.109" errors="6" skipped="7">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.20+8-post-Debian-1deb11u1"/>
@@ -60,24 +60,24 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="| Razor |" name="Given I am on the Gillette website" time="0.014">
+  <testcase classname="| Razor |" name="Given I am on the Gillette website" time="0.013">
     <error message="unknown error: session deleted because of page crash
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [0d7bc44c3a9189436c86d435dc8abd90, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.RgiklA}, goog:chromeOptions: {debuggerAddress: localhost:38747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0d7bc44c3a9189436c86d435dc8abd90" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+Command: [fc5405553791e78906a204ac039749bf, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.s9nAKp}, goog:chromeOptions: {debuggerAddress: localhost:37867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc5405553791e78906a204ac039749bf" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [0d7bc44c3a9189436c86d435dc8abd90, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.RgiklA}, goog:chromeOptions: {debuggerAddress: localhost:38747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0d7bc44c3a9189436c86d435dc8abd90
+Command: [fc5405553791e78906a204ac039749bf, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.s9nAKp}, goog:chromeOptions: {debuggerAddress: localhost:37867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc5405553791e78906a204ac039749bf
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -96,32 +96,32 @@ Session ID: 0d7bc44c3a9189436c86d435dc8abd90
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
 	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Z3d5syp1.get(Unknown Source)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uzNlX6BX.get(Unknown Source)
 	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
 	at ✽.Given I am on the Gillette website(gillette.feature:4)
 </error>
-    <system-err>Sep 01, 2023 6:40:09 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+    <system-err>Sep 01, 2023 7:04:18 AM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
 INFO: Using OpenTelemetry for tracing
 </system-err>
   </testcase>
-  <testcase classname="| Razor |" name="| Razor |" time="0.019">
+  <testcase classname="| Razor |" name="| Razor |" time="0.015">
     <error message="unknown error: session deleted because of page crash
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [0d7bc44c3a9189436c86d435dc8abd90, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.RgiklA}, goog:chromeOptions: {debuggerAddress: localhost:38747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0d7bc44c3a9189436c86d435dc8abd90" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+Command: [fc5405553791e78906a204ac039749bf, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.s9nAKp}, goog:chromeOptions: {debuggerAddress: localhost:37867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc5405553791e78906a204ac039749bf" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [0d7bc44c3a9189436c86d435dc8abd90, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.RgiklA}, goog:chromeOptions: {debuggerAddress: localhost:38747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0d7bc44c3a9189436c86d435dc8abd90
+Command: [fc5405553791e78906a204ac039749bf, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.s9nAKp}, goog:chromeOptions: {debuggerAddress: localhost:37867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc5405553791e78906a204ac039749bf
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -140,37 +140,35 @@ Session ID: 0d7bc44c3a9189436c86d435dc8abd90
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
 	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Z3d5syp1.get(Unknown Source)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$uzNlX6BX.get(Unknown Source)
 	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
 	at ✽.Given I am on the Gillette website(gillette.feature:4)
 </error>
   </testcase>
-  <testcase classname="| Razor |" name="When I search for &quot;Razor&quot; using the search option" time="0.019">
+  <testcase classname="| Razor |" name="When I search for &quot;Razor&quot; using the search option" time="0.015">
     <skipped/>
   </testcase>
-  <testcase classname="| Razor |" name="Then I should see &quot;Results For Razor&apos;&quot; at the top of the search results" time="0.019">
+  <testcase classname="| Razor |" name="Then I should see &quot;Results For Razor&apos;&quot; at the top of the search results" time="0.015">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Given I am on the Gillette website" time="0.004">
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Given I am on the Gillette website" time="0.006">
     <error message="unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [67e5d6cdd1f4ecd9ae113ac5107e7435, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.m2I8e1}, goog:chromeOptions: {debuggerAddress: localhost:35441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67e5d6cdd1f4ecd9ae113ac5107e7435" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
+Command: [fe95004fe4fdfc64a607c08c74488b59, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZBoSUA}, goog:chromeOptions: {debuggerAddress: localhost:43043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe95004fe4fdfc64a607c08c74488b59" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [67e5d6cdd1f4ecd9ae113ac5107e7435, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.m2I8e1}, goog:chromeOptions: {debuggerAddress: localhost:35441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67e5d6cdd1f4ecd9ae113ac5107e7435
+Command: [fe95004fe4fdfc64a607c08c74488b59, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZBoSUA}, goog:chromeOptions: {debuggerAddress: localhost:43043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe95004fe4fdfc64a607c08c74488b59
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -189,31 +187,29 @@ Session ID: 67e5d6cdd1f4ecd9ae113ac5107e7435
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
 	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$yl8948Y2.get(Unknown Source)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$7zcmNTkW.get(Unknown Source)
 	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
 	at ✽.Given I am on the Gillette website(gillette.feature:4)
 </error>
   </testcase>
   <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Scenario: Verify the display of Gillette MACH3 Turbo under products list" time="0.007">
     <error message="unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [67e5d6cdd1f4ecd9ae113ac5107e7435, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.m2I8e1}, goog:chromeOptions: {debuggerAddress: localhost:35441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67e5d6cdd1f4ecd9ae113ac5107e7435" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
+Command: [fe95004fe4fdfc64a607c08c74488b59, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZBoSUA}, goog:chromeOptions: {debuggerAddress: localhost:43043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe95004fe4fdfc64a607c08c74488b59" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [67e5d6cdd1f4ecd9ae113ac5107e7435, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.m2I8e1}, goog:chromeOptions: {debuggerAddress: localhost:35441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 67e5d6cdd1f4ecd9ae113ac5107e7435
+Command: [fe95004fe4fdfc64a607c08c74488b59, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZBoSUA}, goog:chromeOptions: {debuggerAddress: localhost:43043}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe95004fe4fdfc64a607c08c74488b59
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -232,7 +228,7 @@ Session ID: 67e5d6cdd1f4ecd9ae113ac5107e7435
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
 	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$yl8948Y2.get(Unknown Source)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$7zcmNTkW.get(Unknown Source)
 	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
 	at ✽.Given I am on the Gillette website(gillette.feature:4)
 </error>
@@ -254,18 +250,18 @@ from tab crashed
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d366ffe274c695a10e26491d4ee77db4, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.rFHeuH}, goog:chromeOptions: {debuggerAddress: localhost:40249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d366ffe274c695a10e26491d4ee77db4" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+Command: [cd8f85cfd79a974af51a05ef46d31e49, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZlWnQM}, goog:chromeOptions: {debuggerAddress: localhost:33907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd8f85cfd79a974af51a05ef46d31e49" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
 from unknown error: cannot determine loading status
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d366ffe274c695a10e26491d4ee77db4, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.rFHeuH}, goog:chromeOptions: {debuggerAddress: localhost:40249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d366ffe274c695a10e26491d4ee77db4
+Command: [cd8f85cfd79a974af51a05ef46d31e49, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZlWnQM}, goog:chromeOptions: {debuggerAddress: localhost:33907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd8f85cfd79a974af51a05ef46d31e49
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -284,12 +280,12 @@ Session ID: d366ffe274c695a10e26491d4ee77db4
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
 	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$zhI2wQYz.get(Unknown Source)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$vMuHxfDE.get(Unknown Source)
 	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
 	at ✽.Given I am on the Gillette website(gillette.feature:4)
 </error>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="0.006">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="0.004">
     <error message="unknown error: session deleted because of page crash
 from unknown error: cannot determine loading status
 from tab crashed
@@ -297,18 +293,18 @@ from tab crashed
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d366ffe274c695a10e26491d4ee77db4, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.rFHeuH}, goog:chromeOptions: {debuggerAddress: localhost:40249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d366ffe274c695a10e26491d4ee77db4" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+Command: [cd8f85cfd79a974af51a05ef46d31e49, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZlWnQM}, goog:chromeOptions: {debuggerAddress: localhost:33907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd8f85cfd79a974af51a05ef46d31e49" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
 from unknown error: cannot determine loading status
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.20&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [d366ffe274c695a10e26491d4ee77db4, get {url=https://www.gillette.co.in/en-in}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.rFHeuH}, goog:chromeOptions: {debuggerAddress: localhost:40249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d366ffe274c695a10e26491d4ee77db4
+Command: [cd8f85cfd79a974af51a05ef46d31e49, get {url=https://www.gillette.co.in/en-in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ZlWnQM}, goog:chromeOptions: {debuggerAddress: localhost:33907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.4.4:4444/session..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.4.4:4444/session..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.4.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd8f85cfd79a974af51a05ef46d31e49
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -327,15 +323,15 @@ Session ID: d366ffe274c695a10e26491d4ee77db4
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
 	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
 	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$zhI2wQYz.get(Unknown Source)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$vMuHxfDE.get(Unknown Source)
 	at glue.GilletteTests.iAmOnTheGilletteWebsite(GilletteTests.java:46)
 	at ✽.Given I am on the Gillette website(gillette.feature:4)
 </error>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="When I click on &quot;Styling&quot; under &quot;Learn&quot; in the footer" time="0.007">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="When I click on &quot;Styling&quot; under &quot;Learn&quot; in the footer" time="0.005">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling" time="0.007">
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling" time="0.005">
     <skipped/>
   </testcase>
 </testsuite>
